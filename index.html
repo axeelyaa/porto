@@ -7,14 +7,20 @@
 	<style type="text/css">
 		body{
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			height: 100vh;
+			height: 500px;
 		}
 	</style>
 </head>
-<body>
-	<img src="11.jpg">
+<body onload="alertUser('GOTTEM REAL BAD HUH')">
+	<img src="11.jpg" width="400px">
 	<h1>GOTTEM</h1>
+	<script type="text/javascript">
+		function alertUser(msg) {
+		alert(msg);
+	}
+	</script>
 </body>
 </html>
